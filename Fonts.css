@@ -1,0 +1,23 @@
+@font-face {
+  font-family: RedHatText;
+  src: url("assets/fonts/static/RedHatText-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: RedHatText;
+  src: url("assets/fonts/static/RedHatText-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: RedHatText;
+  src: url("assets/fonts/static/RedHatText-Bold.ttf");
+  font-weight: bold;
+}
+
+
+*
+{
+    font-family: RedHatText;
+}

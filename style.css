@@ -1,0 +1,267 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.home
+{
+    display: flex;
+    background-color: #fff3f3;
+    padding: 70px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.parent
+{
+    background-color: #fff3f3;
+    width: 70%;
+}
+.parent h1
+{
+    color: #3E1D09;
+    padding-bottom: 20px;
+}
+.item
+{
+    text-align: left;
+}
+.item img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.image-cart
+{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    margin-bottom: 35px;
+}
+.item button
+{
+    cursor: pointer;
+    position: absolute;
+    background-color: white;
+    color: #241917;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    border:1px solid #241917 ;
+    border-radius: 30px; 
+    padding: 10px 10px;
+    width: 150px;
+    bottom: -20px;
+    left:25%;
+    font-weight: 600;
+}
+.item img.cart-icon
+{
+    width: 24px;
+    height: 24px;
+}
+.dessert-type
+{
+    color: #7c6f69;
+}
+.dessert-name
+{
+    color: #140b06;
+    padding: 5px 0;
+    font-weight: 600;
+}
+.dessert-price
+{
+    color: #d25d4b;
+    font-weight: bold;
+}
+.parent2
+{
+    background-color: white;
+    align-self:self-start;
+    width: 30%;
+    border-radius: 15px;
+}
+.parent2 h2
+{
+    color: #b73b18;
+    padding: 10px 10px;
+}
+.parent2 img
+{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+.parent2 .cart-empty-paragraph
+{
+    text-align: center;
+    color: #856159;
+    padding: 10px 10px 20px;
+}
+
+.Pop-UP
+{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    display: none;
+}
+.Pop-UP h2
+{
+    color: #3E1D09;
+    padding-bottom: 5px;
+}
+.popUp-paragraph
+{
+    color: #7c6f69;
+    padding-bottom: 30px;
+}
+#Confirmed
+{
+    padding-bottom: 20px;
+}
+.Pop-UP button
+{
+    background-color: #c83b0e;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-weight: 400;
+    cursor:pointer ;
+}
+
+.order-final
+{
+    padding: 30px;
+    background-color:#fcf8f5;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.final-order-img
+{
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.item-name
+{
+    color: #140b06;
+    font-weight: 600;;
+}
+.item-count
+{
+    color: #c83b0e;
+    font-weight: 600;
+}
+.item-price
+{
+    color: #7c6f69;
+}
+.item-total-price
+{
+    font-weight: 600;
+    color: #140b06;
+    padding-bottom: 20px;
+}
+.total-price
+{
+    color: #140b06;
+    font-weight: bold;
+}
+.order-total-paragraph
+{
+    color: #7c6f69;
+    font-weight: 500;
+}
+button.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c83b0e;
+  padding: 0.3em 0.6em;
+  border-radius: 20px;
+  gap: 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.quantity-control .qty-btn {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.quantity-control .quantity 
+{
+  min-width: 20px;
+  text-align: center;
+}
+.cart-item p
+{
+   text-align: left;
+}
+.item-name-cart-section
+{
+    color: #140b06;
+    padding: 10px;
+}
+.cart-item-details {
+  display: flex;
+  gap: 1em; 
+}
+.item-qty
+{
+    color: #c83b0e;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.order-total-label
+{
+    padding: 20px 10px;
+    display: inline;
+}
+.order-total-amount
+{
+    display: inline;
+    text-align: right;
+    font-weight: bold;
+}
+.checkout-btn
+{
+    background-color: #c83b0e;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    display: block; 
+    margin: 15px auto;
+    padding: 20px;
+    width: 85%;
+    cursor: pointer;
+}
+/* Tablets: 768px to 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) 
+{
+}
+
+/* Mobile: less than 768px */
+@media screen and (max-width: 767px)
+{
+    .parent2,.parent
+    {
+        width: 100%;
+    }
+    .home
+    {
+        padding: 20px;
+    }
+}

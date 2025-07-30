@@ -1,0 +1,63 @@
+:root {
+  --gap: 10px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: var(--gap); 
+}
+
+.col {
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+
+.col-1  { width: calc((100% / 12 * 1) - var(--gap)); }
+.col-2  { width: calc((100% / 12 * 2) - var(--gap)); }
+.col-3  { width: calc((100% / 12 * 3) - var(--gap)); }
+.col-4  { width: calc((100% / 12 * 4) - var(--gap)); }
+.col-5  { width: calc((100% / 12 * 5) - var(--gap)); }
+.col-6  { width: calc((100% / 12 * 6) - var(--gap)); }
+.col-7  { width: calc((100% / 12 * 7) - var(--gap)); }
+.col-8  { width: calc((100% / 12 * 8) - var(--gap)); }
+.col-9  { width: calc((100% / 12 * 9) - var(--gap)); }
+.col-10 { width: calc((100% / 12 * 10) - var(--gap)); }
+.col-11 { width: calc((100% / 12 * 11) - var(--gap)); }
+.col-12 { width: calc(100% - var(--gap)); }
+
+/* Tablets: 768px to 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) 
+{
+    .t-col-1  { width: calc((100% / 12 * 1) - var(--gap)); }
+    .t-col-2  { width: calc((100% / 12 * 2) - var(--gap)); }
+    .t-col-3  { width: calc((100% / 12 * 3) - var(--gap)); }
+    .t-col-4  { width: calc((100% / 12 * 4) - var(--gap)); }
+    .t-col-5  { width: calc((100% / 12 * 5) - var(--gap)); }
+    .t-col-6  { width: calc((100% / 12 * 6) - var(--gap)); }
+    .t-col-7  { width: calc((100% / 12 * 7) - var(--gap)); }
+    .t-col-8  { width: calc((100% / 12 * 8) - var(--gap)); }
+    .t-col-9  { width: calc((100% / 12 * 9) - var(--gap)); }
+    .t-col-10 { width: calc((100% / 12 * 10) - var(--gap)); }
+    .t-col-11 { width: calc((100% / 12 * 11) - var(--gap)); }
+    .t-col-12 { width: 100%; }
+}
+
+/* Mobile: less than 768px */
+@media screen and (max-width: 767px)
+{
+    .m-col-1  { width: calc((100% / 12 * 1) - var(--gap)); }
+    .m-col-2  { width: calc((100% / 12 * 2) - var(--gap)); }
+    .m-col-3  { width: calc((100% / 12 * 3) - var(--gap)); }
+    .m-col-4  { width: calc((100% / 12 * 4) - var(--gap)); }
+    .m-col-5  { width: calc((100% / 12 * 5) - var(--gap)); }
+    .m-col-6  { width: calc((100% / 12 * 6) - var(--gap)); }
+    .m-col-7  { width: calc((100% / 12 * 7) - var(--gap)); }
+    .m-col-8  { width: calc((100% / 12 * 8) - var(--gap)); }
+    .m-col-9  { width: calc((100% / 12 * 9) - var(--gap)); }
+    .m-col-10 { width: calc((100% / 12 * 10) - var(--gap)); }
+    .m-col-11 { width: calc((100% / 12 * 11) - var(--gap)); }
+    .m-col-12 { width: 100%; }
+}
